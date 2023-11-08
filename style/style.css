@@ -54,83 +54,64 @@ body {
     color: black;
     font-weight: bold;
 }
+
+
 .first-section{
-    position: relative;
+    display: flex;
+
 }
 
-.container {
-    background-image: url(img/3d-background-with-white-cubes.jpg);
+.first-section {
+    background-image: url("../img/3d-background-with-white-cubes.jpg");
     padding: 20px;
-    text-align: center;
     font-size: 30px;
     height: 630px;
     background-size: cover;
-    background-position: center;
 }
-
-.container::before {
-    content: "";
-    display: block;
-    background-image: url("img/small-school-girl-using-mobile-phone-removebg-preview.png");
+.right-container{
+    aspect-ratio: 2.4/3;
+    margin-right: 90px;
+}
+.right-container img{
+    width: 100%;
+    height: 100%;
     background-size: cover;
-    background-position: center;
-    width: 40%;
-    height: auto;
-    padding-top: 50%;
-    position: absolute;
-    left: 20%;
-    transform: translateX(-50%);
-    animation: slideFromBottom 2s ease forwards;
+    margin-top: 20px;
 }
 
-@keyframes slideFromBottom {
-    0% {
-        bottom: -200px;
-    }
-    100% {
-        bottom: 0px;
-    }
+.left-container{
+    margin-top: 100px;
 }
 
-.container h1 {
-    position: absolute;
-    top: 200px;
-    right: 200px;
-    width: auto;
+.left-container h1 {
     font-size: 50px;
+    margin-bottom: -10px;
+    margin-left: -10px;
 }
 
 span {
     color: #50b948;
 }
 
-.container p {
-    position: absolute;
-    top: 300px;
-    right: 200px;
+.left-container p {
     width: 500px;
     font-size: 20px;
 }
 
-.container h2 {
-    position: absolute;
-    top: 400px;
-    right: 200px;
+.left-container h2 {
+
     width: 500px;
     font-size: 15px;
-    text-align: left;
     font-weight: 200;
 }
 
 .download a img {
-    width: 20%;
-    position: relative;
-    top: 500px;
-    right: -240px;
+    width: 30%;
+
 }
 
 .download a img:hover {
-    width: 20.5%;
+    width: 30.5%;
 }
 
 .features {
@@ -238,6 +219,12 @@ button {
 .first-why p, .second-why p {
     font-size: 20px;
     font-weight: 300;
+}
+.first-why p:hover{
+    font-weight: bold;
+}
+.second-why p:hover{
+    font-weight: bold;
 }
 
 .first-why p {
