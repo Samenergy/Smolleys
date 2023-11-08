@@ -106,12 +106,12 @@ span {
 }
 
 .download a img {
-    width: 30%;
+    width: 39%;
 
 }
 
 .download a img:hover {
-    width: 30.5%;
+    width: 39.5%;
 }
 
 .features {
@@ -219,6 +219,7 @@ button {
 .first-why p, .second-why p {
     font-size: 20px;
     font-weight: 300;
+    cursor: pointer;
 }
 .first-why p:hover{
     font-weight: bold;
