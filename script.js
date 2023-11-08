@@ -5,3 +5,4 @@ document.addEventListener("DOMContentLoaded", function() {
         once: true, // Only trigger the animation once
     });
 });
+
