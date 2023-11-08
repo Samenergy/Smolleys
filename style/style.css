@@ -91,6 +91,7 @@ body {
 
 span {
     color: #50b948;
+    margin-left: -10px;
 }
 
 .left-container p {
